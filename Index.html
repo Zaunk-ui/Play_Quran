@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qur'an Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Quicksand&display=swap">
+</head>
+<body>
+    <h2>Qur'an Audio Player</h2>
+    <button class="btn" onclick="toggleDarkMode()">🌙 Mode Gelap</button>
+    <div class="container">
+        <select id="surah" class="btn" onchange="loadAyat()"></select>
+        <button class="btn" onclick="playAll()"><i class='fas fa-play'></i> Putar Semua</button>
+        <div id="ayat-container"></div>
+    </div>
+    <footer>
+    <p>© 2025 Zaunkssec. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

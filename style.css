@@ -1,0 +1,58 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: background 0.3s, color 0.3s;
+}
+
+.ayat {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 0;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
+.dark-mode .container {
+    background: #333;
+    color: #fff;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Courier New;
+    font-size: 10px;
+}
